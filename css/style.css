@@ -79,13 +79,13 @@ h1, h2, h3 {
     background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%)); ;
 }
 .section1 {
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     height: 500px;
 }
@@ -94,8 +94,7 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
     padding: 50px;
-}
-
+} 
 .section2 {
     display: flex;
     height: 70vh;
@@ -113,8 +112,7 @@ h1, h2, h3 {
 }
 .text-section {
     width: 50%;
-    
-    margin: 50px 50px 70px 0;
+    margin: auto;
 
 }
 .text-section h2 {
@@ -150,41 +148,49 @@ h1, h2, h3 {
     
     .hero {
    
-        width: 70%;
+        max-width: 70%;
         height: 100vh;
        text-align: center;
        margin: auto;
+       margin-top: 100px;
+       margin-bottom: 0;
+       padding: auto;
     }
     .hero img {
         width: 100%;
-        height: 50vh;
+        height: auto;
+        margin-bottom: 20px;
     }
     .grid-container {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        height: 300px;
+       border: 1px solid red;
+       height: 100%;
+       margin-top: -250px;
     }
-    .section1 {
-        margin-top: 5px;
+   .grid-item {
+      max-width: 100%;
+      height: auto;
+      text-align: center;
+      border: 1px solid;
     }
+    
     .section2 {
         display: flex;
         height: 80vh;
-        width: 90%;
-        margin: 800px auto 0 auto;
+        max-width: 90%;
+        margin: 20px auto;
         flex-direction: column;
     }
     .image-section {
-        width: 90%;
+        width: 100%;
         margin: 5px auto 5px auto;
     }
     .image-section img {
         width: 100%;   
     }
     .text-section {
-        width: 90%;
+        max-width: 100%;
         margin:auto;
     }
     .text-section h2 {
@@ -196,7 +202,7 @@ h1, h2, h3 {
     }
     .navigation li{
         display: inline;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .navigation a:hover {
         background-color: hsl(198, 60%, 50%);
@@ -205,13 +211,42 @@ h1, h2, h3 {
     }
     .navbar {
         width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
     }
     .logo {
         
-        width: 40%;
+        width: 30%;
     }
     .logo img {
         width: 100%;
         
+    }
+}
+ @media only screen and (max-width:375px) {
+    .section1 {
+        margin-top: 150px;
+    }
+    .navbar {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        
+        width: 30%;
+    }
+    .logo img {
+        width: 100%;
+        
+    }
+    .call-to-action {
+        padding: 12px 70px;
+        border-radius: 40px;
+        background: linear-gradient(50deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        font-family: 'Raleway', sans-serif;
+        color: hsl(0, 0%, 100%);
     }
 }
