@@ -1,4 +1,4 @@
-
+@import"card css.css";
 * {
     padding: 0;
     margin: 0;
@@ -103,6 +103,12 @@ h1, h2, h3 {
     margin: 0 auto;
     justify-content: space-between;
 }
+.section3{
+    margin-top: 100px;
+    display: flex;
+    height: 70vh;
+    width: 100%;
+}
 .image-section {
     width: 50%;
     margin: 30px 0;
@@ -182,6 +188,13 @@ h1, h2, h3 {
         margin: 20px auto;
         flex-direction: column;
     }
+    .section3{
+        display: flex;
+        height: 80vh;
+        width: 100%;
+        margin: 300px auto 0 auto;
+        flex-direction: column;
+    }
     .image-section {
         width: 100%;
         margin: 5px auto 5px auto;
@@ -250,6 +263,80 @@ h1, h2, h3 {
     .call-to-action {
         padding: 5px 30px;
         border-radius: 40px;
+        
+    }
+}
+@media(min-width:501px) and (max-width:1100px) {
+    .hero {
+   
+        width: 70%;
+        height: 100vh;
+       text-align: center;
+       margin: auto;
+    }
+    .hero img {
+        width: 100%;
+        height: 50vh;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        height: 300px;
+    }
+    .section1 {
+        margin-top: 5px;
+    }
+    .section2 {
+        display: flex;
+        height: 80vh;
+        width: 90%;
+        margin: 800px auto 0 auto;
+        flex-direction: column;
+    }
+    .section3{
+        display: flex;
+        height: 80vh;
+        width: 100%;
+        margin-top: 400px;
+    }
+    .image-section {
+        width: 90%;
+        margin: 5px auto 5px auto;
+    }
+    .image-section img {
+        width: 100%;   
+    }
+    .text-section {
+        width: 90%;
+        margin:auto;
+    }
+    .text-section h2 {
+        width: 100%;
+    }
+    #content {
+        margin-top: 5px;
+        width: 90%;
+    }
+    .navigation li{
+        display: inline;
+        margin-left: 10px;
+    }
+    .navigation a:hover {
+        background-color: hsl(198, 60%, 50%);
+        border: 1px solid hsl(198, 60%, 50%);
+        padding: 6px 10px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .logo {
+        
+        width: 40%;
+    }
+    .logo img {
+        width: 100%;
         
     }
 }
