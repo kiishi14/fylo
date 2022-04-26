@@ -241,7 +241,7 @@ h1, h2, h3 {
 }
  @media only screen and (max-width:375px) {
     .section1 {
-        margin-top: 200px;
+        margin-top: 300px;
     }
     .navbar {
         width: 100%;
