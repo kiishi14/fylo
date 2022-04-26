@@ -54,7 +54,7 @@
 
 /*                  media queries                    */
 
-@media (max-width: 378px) {
+@media (max-width: 375px) {
     body    {
         margin: 0px;
     }
@@ -75,6 +75,102 @@
     }
     .thehh  {
         font-size: 10px;
+    }
+    .profile {
+        margin-top: 0px;
+    }
+    .quotation-mark {
+        width: 15px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .reviews    {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .review {
+        margin: 20px 37px 15px 37px; 
+        line-height: 15px;
+        padding-bottom: 25px;
+
+    }
+    .thep   {
+        margin-top: 10px;
+        font-size: 10px;
+        padding-top: 5px;
+        line-height: 23px;
+    }
+    .theh  {
+        font-size: 12px;
+    }
+    .thehh  {
+        font-size: 10px;
+    }
+    .profile {
+        margin-top: 0px;
+    }
+    .quotation-mark {
+        width: 15px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .reviews    {
+        display: block;
+    }
+}
+
+@media (max-width: 786px) {
+    .review {
+        margin: 20px 37px 15px 37px; 
+        line-height: 15px;
+        padding-bottom: 25px;
+
+    }
+    .thep   {
+        margin-top: 10px;
+        font-size: 15px;
+        padding-top: 5px;
+        line-height: 23px;
+    }
+    .theh  {
+        font-size: 17px;
+    }
+    .thehh  {
+        font-size: 16px;
+    }
+    .profile {
+        margin-top: 0px;
+    }
+    .quotation-mark {
+        width: 15px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .reviews    {
+        display: block;
+    }
+}
+
+@media (max-width: 412px) {
+    .review {
+        margin: 20px 37px 15px 37px; 
+        line-height: 15px;
+        padding-bottom: 25px;
+
+    }
+    .thep   {
+        margin-top: 10px;
+        font-size: 15px;
+        padding-top: 5px;
+        line-height: 23px;
+    }
+    .theh  {
+        font-size: 17px;
+    }
+    .thehh  {
+        font-size: 16px;
     }
     .profile {
         margin-top: 0px;
