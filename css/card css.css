@@ -70,7 +70,7 @@ input[type=email] {
     }
     .card{
         box-shadow: 0 8px 16px 0 hsl(217, 41%, 36%), 0 6px 20px 0 hsl(217, 41%, 36%);
-        width: auto;
+        width: 70%;
         height: auto;
         margin-top: -100px;
         padding: 10px;
